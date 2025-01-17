@@ -25,7 +25,7 @@ int main()
         scanf("%f", &item[i].price_per_Unit);
     }
     FILE *fptr;
-    fptr = fopen("Bill.txt", "w");
+    fptr = fopen("Bill.txt", "w");  //Creates a file with name Bill.txt in the system
     char ch1[10] = "Items";
     fprintf(fptr, "%-15s", ch1);
     char ch2[10] = "Quantity";
