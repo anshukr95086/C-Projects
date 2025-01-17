@@ -41,6 +41,5 @@ int main()
         fprintf(fptr, "%-13.3f", item[i].price_per_Unit);
         fprintf(fptr, "%-5.3f\n", item[i].quantity * item[i].price_per_Unit);
     }
-      
     fclose(fptr);
 }
